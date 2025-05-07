@@ -1,10 +1,10 @@
 <cfscript>
     info = [];
-   ArrayAppend(info, "url: " & cgi.request_url);
+    ArrayAppend(info, "url: " & cgi.request_url);
     ArrayAppend(info, "application name: " & getApplicationSettings().name);
     ArrayAppend(info, getApplicationSettings().mappings);
 
-    ArrayAppend(info, "--model.test" 
+    ArrayAppend(info, "--model.test");
     ArrayAppend(info, new model.test().hello());
     ArrayAppend(info, "--mapModel.test");
     ArrayAppend(info, new mapModel.test().hello());
