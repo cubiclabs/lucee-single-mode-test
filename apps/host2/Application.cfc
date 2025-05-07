@@ -7,8 +7,8 @@ component {
 		application.test1 = new model.test();
 		application.test2 = new mapModel.test();
 		application.test3 = createObject("component", "model.test");
-		application.test4 = createObject("component", "/model/test.cfc");
-		application.test5 = createObject("component", "/mapModel/test.cfc");
+		application.test4 = createObject("component", "/model/test");
+		application.test5 = createObject("component", "/mapModel/test");
 		application.test6 = createObject("component", "mapModel.test");
 
 		return true;
