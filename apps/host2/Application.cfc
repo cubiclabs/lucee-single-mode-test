@@ -10,5 +10,6 @@ component {
 		application.test4 = createObject("component", "/model/test.cfc");
 		application.test5 = createObject("component", "/mapModel/test.cfc");
 
+		return true;
 	}
 }
