@@ -10,7 +10,7 @@ on:
         type: string
 
 env:
-  LUCEE_INSTALLER_VERSION: 6.2.1.112-RC
+  LUCEE_INSTALLER_VERSION: 6.2.1.112
 jobs:
   test-ubuntu-linux-x64:
     runs-on: ubuntu-latest
