@@ -18,10 +18,10 @@
     ArrayAppend(info, "--application.test3 createObject(""component"", ""model.test"")");
     ArrayAppend(info, application.test3.hello());
 
-    ArrayAppend(info, "--application.test4 createObject(""component"", ""/model/test.cfc"")");
+    ArrayAppend(info, "--application.test4 createObject(""component"", ""/model/test"")");
     ArrayAppend(info, application.test4.hello());
 
-    ArrayAppend(info, "--application.test5 createObject(""component"", ""/mapModel/test.cfc"")");
+    ArrayAppend(info, "--application.test5 createObject(""component"", ""/mapModel/test"")");
     ArrayAppend(info, application.test5.hello());
 
     ArrayAppend(info, "--application.test6 createObject(""component"", ""mapModel.test"")");
