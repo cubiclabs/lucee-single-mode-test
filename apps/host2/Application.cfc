@@ -9,6 +9,7 @@ component {
 		application.test3 = createObject("component", "model.test");
 		application.test4 = createObject("component", "/model/test.cfc");
 		application.test5 = createObject("component", "/mapModel/test.cfc");
+		application.test6 = createObject("component", "mapModel.test");
 
 		return true;
 	}

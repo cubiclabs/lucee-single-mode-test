@@ -24,6 +24,9 @@
     ArrayAppend(info, "--application.test5 createObject(""component"", ""/mapModel/test.cfc"")");
     ArrayAppend(info, application.test5.hello());
 
+    ArrayAppend(info, "--application.test6 createObject(""component"", ""mapModel.test"")");
+    ArrayAppend(info, application.test6.hello());
+
     for (i in info){
         systemOutput(i, true);
         echo(serializeJson(i)  & "<br>");
